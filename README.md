@@ -18,9 +18,9 @@
 Download our folder from github: wheelchair-design-platform/wheelchair:
 
  1. Connect Arduino to laptop
- 2. Upload arduino file to the Arduino Mega.
+ 2. Upload IMU_arduino_code.ino file to the Arduino Mega.
  3. Install dependencies (using dependencies.pdf) to set up the communication
- 4. Upload arduino file to the Blue Feather.
+ 4. Upload IMU_arduino_code.ino file to the Blue Feather.
  5. Connect Raspberry to laptop
  6. Connect Raspberry to network (using dependencies.pdf)
 
