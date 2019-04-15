@@ -96,7 +96,7 @@ Connected to:
    * Adafruit Feather Bluefruit (Bluetooth connection, GATT)
 
 FSRs 6x
-   Location: All over the seating are of the wheelchair
+   Location: 4x on the seating, 2x on the backrest (for positioning see poster)
 Connected to:
    * Arduino Mega (Physical, wires)
 
