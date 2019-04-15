@@ -30,15 +30,15 @@ Download our folder from github: wheelchair-design-platform/wheelchair:
  10. Attach big Power Bank to the wheelchair frame.
  11. Attach Raspberry Pi to the wheelchair frame.
  12. Attach FSR’s to wheelchair mainframe (for correct wiring see wheel id  electronics.png)
- 13. Attach IMU (BNO055) on small breadboard into the left wheelchair wheel (see wheel id electronics.png for wiring). 
- 
+ 13. Attach IMU (BNO055) on small breadboard into the left wheelchair wheel (see wheel id electronics.png for wiring).
+
  Make sure it is attached to the central turning point to ensure steady data measurement.
 
  14. Connect the Arduino Mega and Raspberry Pi using USB B cable.
  15. Connect the Raspberry Pi and Powerbank using USB cable.
  16. Connect the Adafruit Feather and Powerbank using Micro USB cable.
 
-If all cabled correctly and all dependencies installed correctly. 
+If all cabled correctly and all dependencies installed correctly.
 
  17. Connect to the Raspberry Pi via the network
  18. Run 1_Collect_and_label.py
@@ -51,67 +51,69 @@ If all went correctly the wheelchair is now able to recognize so is in the wheel
 
 The components and their connections, used in our wheelchair, are listed below.
 
+![Components](Wheel_id_electronics_bb.png)
+
 Arduino Mega microcontroller
    Location: Below the wheelchair frame
-Connected to: 
+Connected to:
    * Raspberry Pi (Physical, USB Serial connection)
    * 6 x FSR (Physical, wires)
    * (LEDstrip (Physical, wires) < couldn’t fix it in time)
- 
+
 Adafruit Feather Bluefruit microcontroller
-   Location: On the left wheel 
-Connected to: 
-   * Raspberry Pi (Bluetooth connection, GATT) 
-   * BNO055 IMU Orientation Sensor (Physical, wires) 
+   Location: On the left wheel
+Connected to:
+   * Raspberry Pi (Bluetooth connection, GATT)
+   * BNO055 IMU Orientation Sensor (Physical, wires)
    * Small Powerbank (Physical, Micro USB)
- 
+
 Raspberry Pi microprocessor
-   Location: Below the wheelchair frame 
-Connected to: 
-   * Arduino Mega (Physical, wires) 
+   Location: Below the wheelchair frame
+Connected to:
+   * Arduino Mega (Physical, wires)
    * Big Powerbank (Physical, Micro USB)
    * Speaker (Physical, USB)
    * Server (WIFI connection, MQTT)
    * Adafruit Feather Bluefruit (Bluetooth connection, GATT)
- 
+
 FSRs 6x
    Location: All over the seating are of the wheelchair
 Connected to:
    * Arduino Mega (Physical, wires)
- 
+
 (LEDstrip)
    Location: The armrests of the wheelchair
-Connected to:	
+Connected to:
    * Arduino Mega (Physical, wires)
- 
+
 BNO055 IMU Orientation Sensor
    Location: On the left wheel
-Connected to:	
+Connected to:
    * Adafruit Feather Bluefruit (Physical, wires)
- 
+
 Speaker actuator
    Location: Next to handles of the wheelchair
 Connected to:
    * Raspberry Pi (Physical, USB)
- 
+
 Powerbank x2
    Location: Big one, below the wheelchair frame
-   Location: Small one, in the left wheel 
-Connected to:	
-   * Raspberry Pi (Physical, USB) 
+   Location: Small one, in the left wheel
+Connected to:
+   * Raspberry Pi (Physical, USB)
    * Adafruit Feather Bluefruit (Physical, Micro USB)
- 
+
 USB CABLE
    Location: between Raspberry Pi and Powerbank
- 
+
 MICRO USB CABLE
    Location: between Adafruit Feather Bluefruit and Powerbank
- 
+
 USB B CABLE
    Location: between Raspberry Pi and Arduino Mega.
- 
+
 Male - Male Jumpwires
- 
+
 Female - Male Jumpwires
 
 # Sensors & Actuators
