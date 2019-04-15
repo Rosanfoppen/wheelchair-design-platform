@@ -11,6 +11,20 @@
 * Shows (un)authorized usage by LED strips on the wheels
 * Makes a user profile based on posture, weight and frequency of rotation of the wheels
 
+# Sensors & Actuators
+
+## Selection and motivation of the Sensors
+
+- 6 Force sensing resistors
+The force sensors will be placed in the seating of the wheelchair and, based on data, these will shape a profile of the main user. This profile can then be differentiated from other users, because the differences in weight and posture etc. vary.
+
+- Accelerometer + gyro
+The accelerometer is the second part of the two-step security system, it will measure the acceleration patterns of the main user. People might have very similar weight and postures, therefore this accelerometer will measure usage of the product, and act as a second security feature.
+
+## Selection and motivation of the Actuators
+
+Whenever a person with the incorrect profile uses the wheelchair, the security system will let the surrounding area/people + the main user know that something is wrong. The faulty usage will be made clear on the phone of the user (it’s connected) but also through different actuators on the wheelchair itself, namely:
+
 # Installation
 
 ## Setup steps
@@ -138,20 +152,6 @@ USB B CABLE
 Male - Male Jumpwires
 
 Female - Male Jumpwires
-
-# Sensors & Actuators
-
-## Selection and motivation of the Sensors
-
-- 6 Force sensing resistors
-The force sensors will be placed in the seating of the wheelchair and, based on data, these will shape a profile of the main user. This profile can then be differentiated from other users, because the differences in weight and posture etc. vary.
-
-- Accelerometer + gyro
-The accelerometer is the second part of the two-step security system, it will measure the acceleration patterns of the main user. People might have very similar weight and postures, therefore this accelerometer will measure usage of the product, and act as a second security feature.
-
-## Selection and motivation of the Actuators
-
-Whenever a person with the incorrect profile uses the wheelchair, the security system will let the surrounding area/people + the main user know that something is wrong. The faulty usage will be made clear on the phone of the user (it’s connected) but also through different actuators on the wheelchair itself, namely:
 
 - Audio
 When the correct user uses the wheelchair, the built-in speaker system will welcome him or her and, automatically, the wheelchair will adjust to the user’s preferred settings. When an unauthorized person sits down in the wheelchair, the same audio system will says so.
