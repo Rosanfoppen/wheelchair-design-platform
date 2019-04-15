@@ -1,6 +1,6 @@
 
 # Wheel.ID - *the chair that knows you*
-        *by William Hagen, Jelle Dott & Rosan Foppen*
+        by William Hagen, Jelle Dott & Rosan Foppen
 
 ## Project Description
  We want to build a safety system that is designed for the wheelchair owner, by making a profile of him/her in order for the system to understand who is sitting/ using the wheelchair. This system works based on the weight, way of sitting and the way someone handles the wheelchair. If the wheelchair is used by the wrong person (not saved in the recognised profiles) an alarm will go off, together with some LEDs.
@@ -15,7 +15,8 @@
 
 ## Setup steps
 
-Download our folder from github: wheelchair-design-platform/wheelchair: 
+Download our folder from github: wheelchair-design-platform/wheelchair:
+
  1. Connect Arduino to laptop
  2. Upload arduino file to the Arduino Mega.
  3. Install dependencies (using dependencies.pdf) to set up the communication
@@ -30,6 +31,7 @@ Download our folder from github: wheelchair-design-platform/wheelchair:
  11. Attach Raspberry Pi to the wheelchair frame.
  12. Attach FSR’s to wheelchair mainframe (for correct wiring see wheel id  electronics.png)
  13. Attach IMU (BNO055) on small breadboard into the left wheelchair wheel (see wheel id electronics.png for wiring). 
+ 
  Make sure it is attached to the central turning point to ensure steady data measurement.
 
  14. Connect the Arduino Mega and Raspberry Pi using USB B cable.
@@ -46,8 +48,6 @@ If all cabled correctly and all dependencies installed correctly.
 If all went correctly the wheelchair is now able to recognize so is in the wheelchair, and will give audio feedback accordingly.
 
 # Components
-
-## Components
 
 The components and their connections, used in our wheelchair, are listed below.
 
@@ -134,10 +134,9 @@ When the correct user uses the wheelchair, the built-in speaker system will welc
 - Light
 There is also a LED-strip that will shine bright red or green depending on the user.
 
-
 # Wheelchair Group 01
 
-=========================================================================================
+=======================================================================================
 
 Wheelchair Design Platform is a repository that contains some resources to help
 designers and developers speak the same language, and work together towards
