@@ -70,7 +70,7 @@ If all went correctly the wheelchair is now able to recognize so is in the wheel
 
 The components and their connections, used in our wheelchair, are listed below.
 
-![Components](wheelchair/Wheel id electronics_bb.png)
+![Components](wheelchair/Wheel_id_electronics_bb.png)
 
 Arduino Mega microcontroller
    Location: Below the wheelchair frame
