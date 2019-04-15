@@ -40,29 +40,33 @@ Download our folder from github: wheelchair-design-platform/wheelchair:
 
  If all cabled correctly and all dependencies installed correctly:
 
- Test IMU:
- 17. Connect to the Raspberry Pi via the network
- 18. Run IMU_Grafana.py
- 19. Open Grafana
- 20. Check data
+ Test IMU.
+ 
+ 17. Connect to the Raspberry Pi via the network.
+ 18. Run IMU_Grafana.py.
+ 19. Open Grafana.
+ 20. Check data.
 
- Test FSR:
- 21. Connect to the Raspberry Pi via the network
- 22. Run FSR_Grafana.py
- 23. Open Grafana
- 24. Check data
+ Test FSR.
+ 
+ 21. Connect to the Raspberry Pi via the network.
+ 22. Run FSR_Grafana.py.
+ 23. Open Grafana.
+ 24. Check data.
 
- Test IMU and FSR combined:
- 25. Connect to the Raspberry Pi via the network
- 26. Run IMU_FSR_Grafana.py
- 27. Open Grafana
- 28. Check data
+ Test IMU and FSR combined.
+ 
+ 25. Connect to the Raspberry Pi via the network.
+ 26. Run IMU_FSR_Grafana.py.
+ 27. Open Grafana.
+ 28. Check data.
 
-  If all these tests were completed it is time to train the algorithm (thus far only with FSR data)
-  29. Connect to the Raspberry Pi via the network
-  30. Run 1_Collect_and_label.py
-  31. Run 2_Train_and_Test.py
-  32. Run 3_Predict_sound.py
+ If all these tests were completed it is time to train the algorithm (thus far only with FSR data).
+ 
+ 29. Connect to the Raspberry Pi via the network.
+ 30. Run 1_Collect_and_label.py.
+ 31. Run 2_Train_and_Test.py.
+ 32. Run 3_Predict_sound.py.
 
 If all went correctly the wheelchair is now able to recognize so is in the wheelchair, and will give audio feedback accordingly.
 
