@@ -68,7 +68,7 @@ Download our folder from github: wheelchair-design-platform/wheelchair:
  31. Run 2_Train_and_Test.py.
  32. Run 3_Predict_sound.py.
 
-If all went correctly the wheelchair is now able to recognize so is in the wheelchair, and will give audio feedback accordingly.
+If all went correctly the wheelchair is now able to recognize who is in the wheelchair, and will give audio feedback accordingly.
 
 # Components
 
