@@ -18,7 +18,7 @@
 Download our folder from github: wheelchair-design-platform/wheelchair:
 
  1. Connect Arduino to laptop
- 2. Upload IMU_arduino_code.ino file to the Arduino Mega.
+ 2. Upload FSR_read.ino file to the Arduino Mega.
  3. Install dependencies (using dependencies.pdf) to set up the communication
  4. Upload IMU_arduino_code.ino file to the Blue Feather.
  5. Connect Raspberry to laptop
@@ -38,12 +38,31 @@ Download our folder from github: wheelchair-design-platform/wheelchair:
  15. Connect the Raspberry Pi and Powerbank using USB cable.
  16. Connect the Adafruit Feather and Powerbank using Micro USB cable.
 
-If all cabled correctly and all dependencies installed correctly.
+ If all cabled correctly and all dependencies installed correctly:
 
- 17. Connect to the Raspberry Pi via the network
- 18. Run 1_Collect_and_label.py
- 19. Run 2_Train_and_Test.py
- 20. Run 3_Predict_sound.py
+ Test IMU:
+  17. Connect to the Raspberry Pi via the network
+  18. Run IMU_Grafana.py
+  19. Open Grafana
+  20. Check data
+
+  Test FSR:
+  21. Connect to the Raspberry Pi via the network
+  22. Run FSR_Grafana.py
+  23. Open Grafana
+  24. Check data
+
+  Test IMU and FSR combined:
+  25. Connect to the Raspberry Pi via the network
+  26. Run IMU_FSR_Grafana.py
+  27. Open Grafana
+  28. Check data
+
+  If all these tests were completed it is time to train the algorithm (thus far only with FSR data)
+  29. Connect to the Raspberry Pi via the network
+  30. Run 1_Collect_and_label.py
+  31. Run 2_Train_and_Test.py
+  32. Run 3_Predict_sound.py
 
 If all went correctly the wheelchair is now able to recognize so is in the wheelchair, and will give audio feedback accordingly.
 
@@ -51,7 +70,7 @@ If all went correctly the wheelchair is now able to recognize so is in the wheel
 
 The components and their connections, used in our wheelchair, are listed below.
 
-![Components](Wheel_id_electronics_bb.png)
+![Components](wheelchair/Wheel id electronics_bb.png)
 
 Arduino Mega microcontroller
    Location: Below the wheelchair frame
